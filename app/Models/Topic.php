@@ -47,8 +47,5 @@ class Topic extends Model
         return $query->orderBy('created_at','desc');
     }
 
-    public function topics()
-    {
-        return $this->hasMany(Topic::class);
-    }
+
 }
